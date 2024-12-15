@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Makeup Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#lipsticks">Lipsticks</a></li>
+                <li><a href="#mascara">Mascara</a></li>
+                <li><a href="#concealer">Concealer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="lipsticks">
+            <h2>Lipsticks</h2>
+            <div class="product" onclick="showDetails('Lipstick 1', 'Red lipstick with a smooth finish.', '$15')">
+                <img src="image2.jpg" alt="Lipstick">
+                <p>Lipstick 1</p>
+            </div>
+            <!-- أضف المزيد من المنتجات -->
+        </section>
+
+        <section id="mascara">
+            <h2>Mascara</h2>
+            <div class="product" onclick="showDetails('Mascara 1', 'Black waterproof mascara.', '$12')">
+                <img src="image3.jpg" alt="Mascara">
+                <p>Mascara 1</p>
+            </div>
+        </section>
+
+        <section id="concealer">
+            <h2>Concealer</h2>
+            <div class="product" onclick="showDetails('Concealer 1', 'Full coverage concealer.', '$18')">
+                <img src="image1.jpg" alt="Concealer">
+                <p>Concealer 1</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Makeup Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
